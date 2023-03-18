@@ -13,7 +13,8 @@ body {
   }
 .header {
    
-    max-width: 1150px;
+    max-width: 1000px;
+    width: 100%;
     min-height: 98px;
     padding: 0 5px;
     margin: 0 auto;
@@ -21,8 +22,8 @@ body {
 }
 .container {
     
-    max-width: 1150px;
-   
+    max-width: 1000px;
+    width: 100%;
 
     min-height: 100px;
     padding: 5px;
@@ -32,7 +33,7 @@ body {
 }
 .container__info {
    
-    max-width: 1200px;
+    max-width: 1000px;
     
     padding: 0; 
     margin: 0 auto;
@@ -43,7 +44,7 @@ body {
 }
 .header__inner {
    
-    max-width: 1150px;
+    max-width: 1000px;
     min-height: 98px; 
     padding: 0; 
     margin: 0 auto;
@@ -51,7 +52,7 @@ body {
 }
 .header__wrapper {
    
-    max-width: 1150px;
+    max-width: 1000px;
     min-height: 100px; 
     padding: 0; 
     margin: 0 auto;
@@ -111,7 +112,7 @@ a {
     transition: background-color 0.9s ;
   }
 .bike {
-    max-width: 1150px;
+    max-width: 1000px;
     min-height: 800px;
     padding: 100px 5px 150px;
     margin: 0 auto;
@@ -182,7 +183,7 @@ color: #6F6F6F;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.1em; 
+    letter-spacing: 0.5em; 
 
     margin-top: 80px;
 }
@@ -190,18 +191,10 @@ color: #6F6F6F;
     display: inline-block;
    
     padding: 28px 81px;
-    background: #FF4040;;
-    color: whitesmoke;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 1.1em;
+    background-color: #FF4040;;
+transition: all .3s;
 cursor: pointer; 
- /* text-transform: uppercase; */
-
-    margin-top: 80px;
+margin-top: 80px;
 }
 .bike__column {
     max-width: 550px;
@@ -336,11 +329,11 @@ color: #131313;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 text-transform: uppercase;
-
-/* Черный */
+text-align: center;
+margin-bottom: 100px;
 
 color: #131313;
 }    
@@ -464,6 +457,9 @@ border-radius: 7px;
     cursor: pointer;
 }
 /*slider .slick-dots   */
+.color {
+    margin-bottom:  100px;
+}
 .price {
     margin-bottom:  100px;
 }
