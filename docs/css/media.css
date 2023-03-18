@@ -3,6 +3,17 @@
 }
 
 @media (max-width: 1080px) {
+        /* .menu__link {
+        padding: 10px 5px;
+        transition: all 0.5s;
+    
+      } */
+       .logo {
+        margin: 0 auto;  
+    }     
+    .menu {
+        margin: 0 auto;  
+    } 
 
         .bike__inner {
             /* display: flex; */
@@ -34,11 +45,11 @@
 }
 
 @media (max-width: 850px) {
-    .menu__link {
+    /* .menu__link {
         padding: 10px 5px;
         transition: all 0.5s;
     
-      }
+      } */
       .form__bike {
         display: none;
         position: absolute;
@@ -151,6 +162,17 @@
 
 
 @media (max-width: 460px) {
+    .menu__list {
+    /* max-width: 620px;
+    min-height: 100px;
+    padding: 0;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
     .bike__list{
         min-height: 400px; 
         padding: 5px; 

@@ -64,7 +64,7 @@ body {
 .menu {
     max-width: 620px;
     min-height: 100px;
-    margin-right: 70px;
+    margin-right: 10px;
     /* margin: 0 auto; */
     display: flex;
     justify-content: center;
@@ -76,6 +76,7 @@ body {
     padding: 0;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
@@ -102,7 +103,7 @@ a {
     color: inherit;
   }
 .menu__link {
-    padding: 40px 50px;
+    padding: 10px 5px;
     transition: background-color all 0.5s;
 
   }
