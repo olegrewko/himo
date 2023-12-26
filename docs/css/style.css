@@ -528,7 +528,7 @@ ul {
     float: right;
 }
 .slick-slide img
-{   max-width: 550px;
+{   max-width: 1200px;
     width: 100%;
     display: block;
 }
@@ -618,7 +618,7 @@ body {
     min-height: 98px; 
     padding: 0; 
     margin: 0 auto;
-   
+    border-bottom: 1px solid #eee;
 }
 .header__wrapper {
    
@@ -977,8 +977,9 @@ color: #131313;
 .slider {
     position: relative;
     margin-bottom: 150px;
-    max-width: 1150px;
-    margin-left: 10px;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 5px;
 }
 /*slider .slick-dots  */
 .slider .slick-dots{
