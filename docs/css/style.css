@@ -159,6 +159,13 @@ pre {
 a {
   background-color: transparent;
   color: inherit;
+  cursor: pointer;
+    transition: all .3s;
+}
+a:hover {
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
 }
 
 /**
@@ -865,6 +872,7 @@ ul li {
     /* flex-wrap: wrap; */
 }
 .info__inner_img {
+    margin-top: 20px;
     max-width: 600px;
 }
 .info__img {
