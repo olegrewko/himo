@@ -686,7 +686,7 @@ a {
 .bike {
     max-width: 1200px;
     min-height: 800px;
-    padding: 100px 5px 100px;
+    padding: 50px 5px;
     margin: 0 auto;
 
   }
@@ -707,7 +707,8 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
-    line-height: 77px;
+    line-height: 34px;
+    margin-top: 0;
 
 /* Черный */
 
@@ -729,12 +730,12 @@ color: #6F6F6F;
     }
 
 .bike__text {
-    max-width: 420px;
+    max-width: 300px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 120%;
+    line-height: 150%;
 /* or 17px */
 
 
@@ -746,7 +747,7 @@ color: #6F6F6F;
 
 .bike__link {
     display: inline-block;
-   
+    text-align: center;
     padding: 28px 81px;
     background-color: #131313;
     color: whitesmoke;
@@ -754,11 +755,11 @@ color: #6F6F6F;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0.5em; 
-
-    /* margin-top: 80px;
-    margin-bottom: 50px; */
+    width: 100%;
+    margin-right: 10px;
+    
 }
 .bike__link:hover {
     display: inline-block;
@@ -770,16 +771,24 @@ cursor: pointer;
 /* margin-top: 80px; */
 }
 .bike__column {
+    margin-top: 20px;
     max-width: 600px;
     min-height: 600px;
     width: 100%;
-    flex-basis: 600px;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+
    
     
     
     
+}
+.bike__text-wrap {
+    flex-grow: 1;
 }    
 .bike__column-slider {
+    margin-top: 20px;
     flex-basis: 600px;
     
     max-width: 600px;
@@ -831,7 +840,7 @@ border-radius: 7px;
     height: 98px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1030,7 +1039,7 @@ border-radius: 7px;
     margin-bottom:  150px;
 }
 .form {
-    max-width: 420px;
+    max-width: 400px;
     width: 100%;
 }
 .form__title {
