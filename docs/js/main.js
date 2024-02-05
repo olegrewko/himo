@@ -60,10 +60,11 @@
         // pop() removes the last element of an array
         console.log(result02)
         result02.push(4)
-        console.warn(result02); 
+        console.log(result02); 
     // ------------------------------------------------------
     const animals = ["ant", "bison", "camel", "duck", "elephant"];
 
+    console.warn(animals.slice(1));
     console.log(animals.slice(2));
     // Expected output: Array ["camel", "duck", "elephant"]
 

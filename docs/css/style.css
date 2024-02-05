@@ -722,7 +722,7 @@ body {
     background:rgba(96, 212, 212, 0.36);
     max-width: 1000px;
     width: 100%;
-    
+    margin-bottom: 10px;
     padding: 0; 
     /* margin: 0 auto; */
     display: flex;
@@ -972,7 +972,7 @@ ul li {
     /* flex-wrap: wrap; */
 }
 .info__inner_img {
-    margin-top: 20px;
+    margin-top: 0px;
     max-width: 500px;
     width: 100%;
 }
@@ -984,9 +984,9 @@ ul li {
     /* object-fit: cover; */
 }
 .info__list {
-    max-width: 500px;
+    max-width: 490px;
     width: 100%;
-    flex-basis: 500px;
+    flex-basis: 490px;
     border-left: 4px solid black;
 
 }
@@ -998,7 +998,7 @@ ul li {
 
 .info__item-title {
     
-    
+margin: 5px 0;    
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -1014,8 +1014,8 @@ color: #131313;
 
 .info__item-text {
     max-width: 100%;
-    padding-bottom: 10px;
-    
+    padding-bottom: 5px;
+    /* margin: 5px; */
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -1156,6 +1156,10 @@ border-radius: 2px;
     margin-bottom:  150px;
 }
 .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 500px;
     max-width: 350px;
     width: 100%;
 }
@@ -1180,7 +1184,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 120%;
-max-width: 250px;
+/* max-width: 250px; */
+grow: 1;
 width: 100%;
 
 
@@ -1237,6 +1242,7 @@ opacity: 0.6;
 
 }
 .price__inner {
+    min-height: 500px;
     position: relative;
 
 }
@@ -1255,9 +1261,11 @@ opacity: 0.6;
     /* width: 121px;
     height: 82px; */
     
+/* display: flex;
+justify-content: center; */
 font-style: normal;
-font-weight: 600;
-font-size: 16px;
+font-weight: 700;
+font-size: 18px;
 line-height: 30px;
 
 color: #131313;
@@ -1281,7 +1289,7 @@ border-radius: 30px;
 .form__radio-style--grey {
     /* width: 80px; */
     /* height: 24px; */
-    margin: 0 40px 0 0;
+    margin: 0 60px 0 0;
     
     
     /* серый */
@@ -1293,7 +1301,7 @@ border-radius: 30px;
 }
 .form__radio-style--white {
     position: relative;
-    margin: 0 40px 0 0;
+    margin: 0 60px 0 0;
     
     
     /* серый */
@@ -1323,7 +1331,7 @@ border-radius: 30px;
     /* width: 80px;
     .form__radio-style--white::before
     height: 24px; */
-    margin: 0 20px 0 0;
+    margin: 0 60px 0 0;
     
     
     /* серый */
@@ -1647,7 +1655,7 @@ transition: all .4s;
  
     .bike__link-f {
           
-        margin-top: 380px;
+        margin-top: 400px;
     }
   
     .form__label-box {
