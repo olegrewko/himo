@@ -17,7 +17,7 @@
     <!-- <script src="js/jquery.js"></script> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.css" rel="stylesheet">
-<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.js"></script> 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.js"></script> 
 
     <link rel="stylesheet" href="css/style.css" />
     <!-- <link rel="stylesheet" href="css/fotorama464.min.css" /> -->
@@ -319,26 +319,40 @@
         </div>
       </div>
     </section>
-
+    <div class="container-flex">
     <section class="advantades" id="advantades">
-      <div class="header__wrapper">
-        <h1 class="char__title-main">Преимущества</h1>
+      <div class="header__wrapper-advantades">
+        <h1 class="char__title-main">Преимущества Himo C26</h1>
       </div>
-
-      <div class="container">
-        <div class="fotorama bg-grey" id="fotorama" data-nav="thumbs">
-              <img src="img/h3.jpg" alt="img/h3.jpg" />
-              <img src="img/h4.jpg" alt="img/h4.jpg" />
-              <img src="img/h5.jpg" alt="img/h5.jpg" />
-              <img src="img/h6.jpg" alt="img/h6.jpg" />
-              <img src="img/h7.jpg" alt="img/h7.jpg" />
-              <img src="img/h8.jpg" alt="img/h8.jpg" />
-              <img src="img/h9.jpg" alt="img/h5.jpg" />
-              <!-- <img src="img/h10.jpg" alt="img/h10.jpg" /> -->
-                        
+        <div class="about__cell">
+            <div class="fotorama bg-grey" id="fotorama" data-nav="thumbs">
+                <img src="img/h3.jpg" alt="img/h3.jpg" />
+                <img src="img/h4.jpg" alt="img/h4.jpg" />
+                <img src="img/h5.jpg" alt="img/h5.jpg" />
+                <img src="img/h6.jpg" alt="img/h6.jpg" />
+                <img src="img/h7.jpg" alt="img/h7.jpg" />
+                <img src="img/h8.jpg" alt="img/h8.jpg" />
+                <img src="img/h9.jpg" alt="img/h5.jpg" />
+            </div> 
         </div> 
-      </div>
     </section>
+    <section class="advantades" id="video">
+      <div class="header__wrapper-advantades">
+        <h1 class="char__title-main">Video about Himo C26</h1>
+      </div>
+        <div class="about__cell">
+            <div class="fotorama bg-grey" id="video" data-nav="thumbs">
+                <img src="img/h3.jpg" alt="img/h3.jpg" />
+                <img src="img/h4.jpg" alt="img/h4.jpg" />
+                <img src="img/h5.jpg" alt="img/h5.jpg" />
+                <img src="img/h6.jpg" alt="img/h6.jpg" />
+                <img src="img/h7.jpg" alt="img/h7.jpg" />
+                <img src="img/h8.jpg" alt="img/h8.jpg" />
+                <img src="img/h9.jpg" alt="img/h5.jpg" />
+            </div> 
+        </div> 
+    </section>
+    </div>
     <section class="color" id="color">
       <div class="header__wrapper">
         <h1 class="char__title-main">Расцветка</h1>
@@ -714,8 +728,8 @@
     <script type="text/javascript">
         $(function() {
             $('#fotorama').fotorama({
-        width: 1000,
-        height: 490
+        width: 500,
+        height: 280
         });
             });
     </script>
