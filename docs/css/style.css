@@ -62,7 +62,7 @@
     background: #F1DB26;
 }
 .about__cell {
- max-width: 500px;
+ max-width: 1000px;
  width: 100%;
  
  /* display: flex; */
@@ -703,7 +703,7 @@ body {
     min-height: 100px;
     background:rgba(96, 212, 212, 0.36);
     /* background: #F1DB26; */
-    max-width: 500px;
+    max-width: 1000px;
     width: 100%;
     margin-bottom: 10px;
     padding: 0; 
