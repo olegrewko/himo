@@ -62,15 +62,23 @@
     background: #F1DB26;
 }
 .about__cell {
- max-width: 1000px;
+ max-width: 500px;
  width: 100%;
  
  /* display: flex; */
  /* justify-content: left; */
  /* align-items: center; */
 }   
+.about__cell-490 {
+ max-width: 480px;
+ width: 100%;
+ margin-left: 5px;
+ /* display: flex; 
+  justify-content: center; 
+  align-items: center; */
+}   
 .dummy {
-    min-height: 200px;
+    min-height: 5px;
 }
 .wrapper {
     /* position: relative; */
@@ -1074,6 +1082,17 @@ background: #131313;
 
     color: #131313;
 }
+.char__name-advantades {
+    max-width: 490px;
+    /* max-height: 34px; */
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+
+    color: #131313;
+}
 .char__inner {
     display: flex;
     /* flex-wrap: wrap; */
@@ -1354,6 +1373,7 @@ color: white;
 }
 .container-flex {
   max-width: 1000px;
+  min-height: 600px;
   width: 100%;
   padding: 0 0px;
   margin: 0 auto;
